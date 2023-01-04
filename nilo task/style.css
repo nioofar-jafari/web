@@ -1,0 +1,133 @@
+* {
+    padding: 0%;
+    margin: 0;
+    box-sizing: border-box;
+   
+}
+.container{
+    position: relative;
+}
+body{
+    background-image:url(/image/gol.jpg);
+    background-size: cover;
+}
+.wrapper {
+    display: flex;
+    margin: 10px auto;
+    justify-content: center;
+    align-items: center;
+   font-size: large;
+ 
+}
+.header>.container>.row>.x{
+    color: rgb(9, 9, 9);
+}
+.row{
+    padding-top: 100px;
+    position: absolute;
+}
+
+.wrapper>.box {
+
+    width: 700px;
+    height: 450px;
+    display: flex;
+    border: 1px solid rgba(255, 226, 6, 0.715);
+    border-radius: 36px;
+    flex-direction: column;
+    background-color: rgba(255, 226, 6, 0.748);
+    z-index: 1;
+    position: relative;
+    padding: 8px;
+    color: white;
+    padding: 20PX;
+    /* justify-content: center; */
+    /* text-align: center; */
+    
+
+
+
+}
+
+#first-input {
+    height: 30px;
+    margin: 10px 0;
+
+}
+
+#input {
+    height: 30px;
+    /* border: inherit; */
+    /* border-bottom: rgb(255, 0, 0); */
+    margin: 10px 0;
+}
+
+#demo{
+    height: 30px;
+    margin: 10px 0;
+
+
+}
+
+.addtask {
+    width: 20%;
+    height: 30px;
+    margin: 10px 0;
+    border-radius: 5px;
+    border: 1px solid gray;
+    transition: 0.4s;
+
+}
+
+
+.addtask:hover{
+    background-color: rgb(88, 159, 159);
+}
+
+.clear {
+    width: 20%;
+    height: 30px;
+    margin: 10px 0;
+    border-radius: 5px;
+    border: 1px solid gray;
+    transition: 0.4s;
+
+}
+.clear:hover{
+    background-color: rgb(88, 159, 159);
+}
+
+
+
+ul,
+li {
+    list-style: none;
+}
+
+.list>li> a {
+    text-decoration: none;
+    color: black;
+    padding-bottom: 3px ;
+    padding-left:  25px;
+}
+
+
+
+.tasks li {
+    
+    background-color: rgb(223, 139, 29);
+    /* margin: 10px; */
+    font-size: 20px;
+    display: flex;
+    justify-content: space-between;
+    margin: 8px 10px;
+    width: 80%;
+}
+
+
+
+.tasks>li>i {
+    cursor: pointer;
+    padding: 5px 25px;
+}
+
